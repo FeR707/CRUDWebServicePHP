@@ -14,9 +14,7 @@ class conectar extends PDO
 				} catch(PDOException $e){
 				echo ' Ha ocurrido un error:' . $e->getMessage();
 				exit;
-			   }
-
+				}
 		} 
-
 }
 ?>
